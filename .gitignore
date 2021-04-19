@@ -1,0 +1,23 @@
+#List of files to ignore in the git upload. Namely the datafiles and compiled code we wish not to share online
+#Ignore data
+#data/RawData/*.xlsx
+data/AlphaData/*.xlsx
+data/BOCPDData/*.xlsx
+data/DemoData/*.xlsx
+
+#Ignore virtual environment
+venv/
+#Ignore cached files
+
+#Ignore graphs
+cachefiles/Alpha/*.png
+cachefiles/BOCPD/*.png
+cachefiles/Fourier/*.png
+cachefiles/PCA/*.png
+cachefiles/Raw/*.png
+
+#Ignore any compiles
+*.pyc
+
+#Ignore any Cached jsons
+cachefiles/*.json

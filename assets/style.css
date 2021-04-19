@@ -1,0 +1,240 @@
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Body
+- Banner
+- BoxContainer
+- Tabs
+- Rows Cols
+- Graphs
+- Misc
+
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* ---–––––––––––––––––––––––––––––––––––––––––––––––
+- Body
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#app-container * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  background-color: #68246D;
+  color: black; /*Text colour*/
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  height: 100%;
+  max-width: 100% !important;
+  overflow-x: hidden;
+  margin: 0px 0px;
+}
+
+#big-app-container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0px;
+}
+
+/* ---–––––––––––––––––––––––––––––––––––––––––––––––
+- Banner
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.banner {
+  height: fit-content;
+  background-color: rgb(265, 265, 265);
+  color: #68246D;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 5px solid rgb(255, 255, 255);
+  border-bottom: 5px solid rgb(0, 0, 0);
+  padding: 0rem 5rem;
+  width: 100%;
+}
+
+.banner h5 {
+  font-family: 'Open Sans Semi Bold', sans-serif;
+  font-weight: 100;
+  line-height: 1.0;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.banner h6 {
+  font-size: 1.6rem;
+  line-height: 1.0;
+}
+
+.banner Img {
+  height: 3rem;
+  margin: 0px 10px;
+}
+
+/* ---–––––––––––––––––––––––––––––––––––––––––––––––
+- BoxContainer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.box {
+  height: fit-content;
+  background-color: rgb(265, 265, 265);
+  width: 90%;
+  margin: 1% auto;
+  border: 5px solid rgb(0,0,0)
+}
+
+/* ---–––––––––––––––––––––––––––––––––––––––––––––––
+- Tabs
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#tabs {
+  width: 100%;
+  display: flex;
+  margin: 10px 0px ;
+}
+
+.custom-tabs {
+  background-color: #1E2130;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  height: fit-content;
+  cursor: pointer;
+}
+
+#Specs-tab.custom-tab, #Control-chart-tab.custom-tab {
+  background-color: #161a28;
+  letter-spacing: 1px;
+  color: black;
+  border: 0;
+  border-bottom: #1E2130 solid 4px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 18px;
+  display: flex;
+}
+
+#Specs-tab.custom-tab--selected, #Control-chart-tab.custom-tab--selected {
+  border-bottom: #91dfd2 solid 4px !important;
+}
+
+#Specs-tab.custom-tab {
+  margin-right: 3px;
+}
+
+#Control-chart-tab.custom-tab {
+  margin-left: 3px;
+}
+
+.section-banner {
+  color: darkgray;
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #4b5460;
+}
+
+/* ---–––––––––––––––––––––––––––––––––––––––––––––––
+- Text formating
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.Para-text {
+  text-align: center;
+}
+
+.Header-text {
+  text-align: left;
+  margin-left: 1px;
+}
+
+/* ---–––––––––––––––––––––––––––––––––––––––––––––––
+- Rows Cols
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.Rows {
+  width: 100%;
+  margin-left: 0px;
+}
+
+.Cols {
+  width: 100%;
+  margin-left: 0px;
+}
+
+/* ---–––––––––––––––––––––––––––––––––––––––––––––––
+- Graphs
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.graphContainer {
+  display : inline-block;
+  width : 100%;
+}
+
+/* ---–––––––––––––––––––––––––––––––––––––––––––––––
+- Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.Button {
+  background-color: white;
+  color: black;
+  outline: True;
+  text-align: center;
+  margin : auto;
+  width : 100px;
+}
+
+.ButtonInfo {
+  background-color: white;
+  color: black;
+  border: 0px;
+  text-align: center;
+  margin : auto;
+  width : 100px;
+}
+
+.ButtonImg {
+  height: 40px;
+}
+
+.Progress {
+  position: relative;
+  background-color: gray;
+  color: black;
+  margin : auto;
+  height: 100%;
+}
+
+.ProgressBar {
+  background-color: #68246D;
+  position: relative;
+  text-align: center;
+  line-height: 40px; /* line-height should be equal to bar height */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ---–––––––––––––––––––––––––––––––––––––––––––––––
+- Modal
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.Modal {
+  size: "xl";
+}
+
+.ModalButton {
+  background-color: white;
+  color: black;
+  border: 5px;
+  text-align: center;
+  margin : auto;
+  width : 100px;
+}
