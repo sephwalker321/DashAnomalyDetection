@@ -2,7 +2,6 @@
 <p align="center">
   <a href="https://github.com/sephwalker321/AnomalyDetectionDashboard">
     <img src="assets/durham-university-2019.png" alt="Logo" width="auto" height="80">
-    <img src="assets/edf.png" alt="Logo" width=auto height="80">
     <img src="assets/logo-plotly.svg" alt="Logo" width=auto height="80">
   </a>
 
