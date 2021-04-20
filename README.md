@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/sephwalker321/AnomalyDetectionDashboard">
+  <a href="https://github.com/sephwalker321/AnomalyDetectionDashboard.git">
     <img src="assets/durham-university-2019.png" alt="Logo" width="auto" height="80">
     <img src="assets/logo-plotly.svg" alt="Logo" width=auto height="80">
   </a>
