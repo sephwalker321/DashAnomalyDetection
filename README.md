@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/sephwalker321/AnomalyDetectionDashboard.git">
+  <a href="https://github.com/sephwalker321/DashAnomalyDetection.git">
     <img src="assets/durham-university-2019.png" alt="Logo" width="auto" height="80">
     <img src="assets/logo-plotly.svg" alt="Logo" width=auto height="80">
   </a>
@@ -65,7 +65,7 @@ To get a local copy up and running follow these simple example steps.
 This is an example of how to list things you need to use the software and how to install them.
 1. Clone the repo,
    ```
-   git clone https://github.com/sephwalker321/AnomalyDetectionDashboard.git
+   git clone https://github.com/sephwalker321/DashAnomalyDetection.git
    ```
 
 2. Running the install script,
